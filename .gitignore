@@ -1,0 +1,40 @@
+# === AMBIENTE VIRTUAL ===
+venv/
+.env/
+
+# === CACHE PYTHON ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === CONFIGURAÇÃO EDITORES ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === ARQUIVOS TEMPORÁRIOS ===
+*.log
+*.tmp
+
+# === NOTEBOOKS CACHE ===
+.ipynb_checkpoints/
+
+# === SAÍDAS DE MODELOS ===
+*.joblib
+*.pkl
+
+# === RESULTADOS / OUTPUT ===
+output/
+results/
+
+# === DADOS SENSÍVEIS OU GRANDES ===
+data/*.csv
+!data/dados_ficticios.csv  # mantém somente o dataset do projeto
+
+# === SISTEMA OPERACIONAL ===
+# Windows
+Thumbs.db
+desktop.ini
+# macOS
+.DS_Store
